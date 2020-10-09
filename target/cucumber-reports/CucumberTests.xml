@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.241">
+    <testcase classname="Validate otus authorization" name="As an user I can authorize to site" time="0.06">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+Then I should be authorized.................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate otus authorization" name="As an user I can logout" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+And I click logout button...................................................skipped
+Then I should be unauthorized...............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate Otus navigation" name="As an user I can navigate to categories page" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I select tab 'Программирование'........................................skipped
+Then I should see 56 courses on 'Программирование' page.....................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate Otus navigation" name="As an user I can navigate to categories page 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I select tab 'Инфраструктура'..........................................skipped
+Then I should see 30 courses on 'Инфраструктура' page.......................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate Otus navigation" name="As an user I can navigate to categories page 3" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I select tab 'Информационная безопасность'.............................skipped
+Then I should see 7 courses on 'Информационная безопасность' page...........skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate Otus navigation" name="As an user I can open about Otus Page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I navigate to AboutOtusPage............................................skipped
+Then I should see AboutOtusPage.............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate otus profile" name="As an user I can open My courses page" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+And I open My courses page..................................................skipped
+Then I should see My courses list...........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate otus profile" name="As an user I can open Payment page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+And I open Payment page.....................................................skipped
+Then I should see My payments...............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate otus profile" name="As an user I can add Personal info" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+And I navigate to My profile page...........................................skipped
+And I add personal info and save............................................skipped
+Then The info should be saved...............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Validate otus profile" name="As an user I can add my specialization" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to Otus main page by 'https://otus.ru/'....................undefined
+When I enter email and password in Login Page...............................skipped
+And I navigate to My profile page...........................................skipped
+And I add my specialization and save........................................skipped
+Then The specialization should be saved.....................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
